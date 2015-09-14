@@ -20,6 +20,8 @@ EXPOSE \
 #ADD scr/box_type /etc/z-way/box_type 
 
 RUN wget -q -O - razberry.z-wave.me/install | bash
+
+CMD /etc/init.d/z-way-server start
  
 
 
