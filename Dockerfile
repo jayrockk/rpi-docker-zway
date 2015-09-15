@@ -21,7 +21,7 @@ EXPOSE \
 
 RUN wget -q -O - razberry.z-wave.me/install | bash
 
-CMD /etc/init.d/z-way-server start
+#CMD /etc/init.d/z-way-server start
  
 
 
