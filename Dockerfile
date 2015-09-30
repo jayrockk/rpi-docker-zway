@@ -1,4 +1,4 @@
-From philipz/rpi-raspbian
+From hypriot/rpi-node
 MAINTAINER Johannes Hertel
 
 RUN apt-get update && apt-get -y install wget
